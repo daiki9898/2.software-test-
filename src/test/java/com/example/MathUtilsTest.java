@@ -142,7 +142,7 @@ class MathUtilsTest {
     @Test
     void testPower20() {
         double actualAnswer = MathUtils.power(2, 2);
-        assertEquals(3, actualAnswer, "TC20:期待値と実際の結果が異なります");
+        assertEquals(4, actualAnswer, "TC20:期待値と実際の結果が異なります");
     }
 
     @Test
